@@ -90,8 +90,8 @@ powertop
 pulseaudio-bluetooth
 pulseaudio-ctl
 pulseaudio-zeroconf
-qt5ct
-qt5-styleplugins
+#qt5ct
+#qt5-styleplugins
 screenfetch
 smplayer
 sushi
