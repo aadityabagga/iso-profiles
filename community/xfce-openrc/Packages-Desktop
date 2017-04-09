@@ -1,0 +1,202 @@
+## Xorg Input Drivers
+xf86-input-elographics
+xf86-input-evdev
+xf86-input-keyboard
+>systemd xf86-input-libinput
+>openrc xf86-input-libinput-nosystemd
+xf86-input-mouse
+xf86-input-void
+
+## Xorg Server and Graphics
+>systemd xorg-server
+>openrc xorg-server-nosystemd
+xorg-server-utils
+xorg-twm
+xorg-utils
+xorg-xinit
+mesa-demos
+>multilib lib32-mesa-demos
+
+## Desktop Utils
+xdg-su
+>systemd xdg-user-dirs
+>openrc xdg-user-dirs-nosystemd
+xdg-utils
+
+## Fonts
+terminus-font
+ttf-bitstream-vera
+ttf-dejavu
+ttf-inconsolata
+ttf-indic-otf
+ttf-liberation
+ttf-droid
+
+## Applications
+inxi
+dmidecode # for inxi -m output
+powertop
+
+## Sound
+alsa-firmware
+>openrc alsa-utils-openrc
+>systemd alsa-utils
+
+## Network
+mobile-broadband-provider-info
+modemmanager
+>openrc avahi-openrc
+>systemd avahi
+nss-mdns # NSS support for mDNS (optdepend for avahi)
+>systemd ntp
+>openrc ntp-openrc
+
+## Misc
+>openrc accountsservice-elogind
+>openrc elogind-openrc
+>openrc openrc-settingsd
+>openrc displaymanager-openrc
+>openrc upower-nosystemd
+>openrc libpulse-nosystemd
+>openrc media-player-info-nosystemd
+manjaro-hotfixes
+
+## Basic packages
+dconf
+desktop-file-utils
+tmpwatch		# cleaning /tmp
+ps_mem			# memory usage
+>openrc cronjobs
+manjaro-browser-settings
+
+## Previously in Packages
+gptfdisk
+parted
+tcpdump
+manjaro-tools-base
+manjaro-documentation
+vi
+
+## Audio Packages
+alsa-plugins
+
+## Network and bluetooth
+networkmanager
+networkmanager-openrc
+network-manager-applet
+networkmanager-openvpn
+openvpn-openrc		# with networkmanager-openvpn
+bluez-openrc		# bluetooth
+blueman
+
+## Openbox
+openbox
+obconf
+obmenu
+obmenu-generator
+tint2
+lxrandr
+compton
+nitrogen
+conky
+lxappearance
+volumeicon
+orage			# for calender
+python2-xdg		# for autostart of applications in /etc/xdg/autostart
+
+## Xfce
+xfce4-panel
+xfce4-session
+xfce4-terminal
+xfdesktop
+xfwm4
+xfce4-appfinder
+xfce4-settings
+xfce4-notifyd
+xfce4-screenshooter
+xfce4-taskmanager
+xfce4-power-manager
+xfce4-whiskermenu-plugin
+xfce4-clipman-plugin
+xfce4-xkb-plugin
+
+## Base packages
+#light-locker-consolekit	# light-locker
+
+## Basic Apps
+lightdm
+lightdm-gtk-greeter
+qpdfview
+xarchiver
+firefox			# web browser
+thunar			# file manager
+ristretto		# image viewer
+mousepad		# text editor
+gparted
+galculator
+
+## More Apps
+gconf			# qt-theme fix
+gnome-keyring		# wlan segfault fix, networkmanager
+gvfs			# to fix trash in thunar
+>openrc udisks2-elogind	# removable disk management
+manjaro-settings-manager
+pamac
+gksu			# required for octopi
+thunar-archive-plugin
+htop
+tumbler			# for thumbnails
+catfish			# for thunar search
+downgrade
+menulibre
+#mugshot
+hexchat
+timeset-gui		# MSM time module does not work with OpenRC
+parole
+mpg123			# for parole
+gst-libav		# for parole, h.264 video in firefox
+gcolor2
+gst-plugins-base	# useful with firefox, parole
+gst-plugins-good	# for parole, h.264 video in firefox
+xfburn
+thunar-volman		# for usb auto-mounting
+gvfs-mtp		# for mounting smartphones
+dconf-editor		# for viewing dconf settings (light-locker, mousepad, etc)
+vim
+git
+gvfs-gphoto2		# For devices that use PTP like digital cameras
+hardinfo		# graphical system info
+ffmpegthumbnailer	# video thumbnails in thunar
+lightdm-gtk-greeter-settings
+
+## Services
+cups-openrc
+openssh-openrc
+syslog-ng-openrc
+json-c			# for syslog-ng
+
+## Artwork, icons
+manjaro-artwork
+breath-wallpaper
+gnome-themes-standard	# general theme
+vertex-maia-themes
+xfce-theme-greenbird
+maia-xfce-icon-theme
+elementary-xfce-icons
+xcursor-vanilla-dmz
+xcursor-vanilla-dmz-aa
+xcursor-breeze
+
+## AUR Access
+autoconf
+automake
+binutils
+bison
+fakeroot
+flex
+gcc
+libtool
+m4
+make
+patch
+yaourt
