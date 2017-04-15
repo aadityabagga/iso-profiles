@@ -128,7 +128,7 @@ lightdm
 lightdm-gtk-greeter
 qpdfview
 xarchiver
-firefox			# web browser
+palemoon-bin		# web browser
 thunar			# file manager
 ristretto		# image viewer
 mousepad		# text editor

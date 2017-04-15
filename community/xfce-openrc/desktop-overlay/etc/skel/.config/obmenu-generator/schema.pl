@@ -28,9 +28,9 @@ my $editor = $CONFIG->{editor};
 
 our $SCHEMA = [
     #          COMMAND                 	LABEL                ICON
-    {item => ['xfce4-terminal',		'Terminal',          'terminal']},
-    {item => ['thunar',        		'File Manager',      'file-manager']},
-    {item => ['firefox',    		'Web Browser',       'web-browser']},
+    {item => ['exo-open --launch TerminalEmulator',	'Terminal',          'terminal']},
+    {item => ['exo-open --launch FileManager',        	'File Manager',      'file-manager']},
+    {item => ['exo-open --launch WebBrowser',    	'Web Browser',       'web-browser']},
 
     {sep => undef},
 
