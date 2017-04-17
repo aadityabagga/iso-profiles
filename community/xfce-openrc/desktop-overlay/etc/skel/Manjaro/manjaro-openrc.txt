@@ -32,7 +32,7 @@ $ sudo rc-service sshd stop
 
 Links
 ~~~~~
-Forum (new): https://forum.manjaro.org/tags/openrc
+Forum (new): https://forum.manjaro.org/c/technical-issues-and-assistance/openrc
 
 Forum (old): https://classicforum.manjaro.org/index.php?board=50.0
 

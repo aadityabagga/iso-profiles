@@ -120,9 +120,6 @@ xfce4-whiskermenu-plugin
 xfce4-clipman-plugin
 xfce4-xkb-plugin
 
-## Base packages
-#light-locker-consolekit	# light-locker
-
 ## Basic Apps
 lightdm
 lightdm-gtk-greeter
@@ -168,6 +165,9 @@ gvfs-gphoto2		# For devices that use PTP like digital cameras
 hardinfo		# graphical system info
 ffmpegthumbnailer	# video thumbnails in thunar
 lightdm-gtk-greeter-settings
+iotop			# cmd line i/o monitor
+gnu-netcat		# nc
+light-locker		# screen locker
 
 ## Services
 cups-openrc
