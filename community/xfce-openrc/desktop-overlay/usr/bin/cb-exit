@@ -27,24 +27,24 @@ class cb_exit:
 	def suspend_action(self,btn):
 		self.disable_buttons()
 		self.status.set_label("Suspending, please standby...")
-		os.system("dbus-send --system --dest=org.freedesktop.ConsoleKit --type=method_call --print-reply --reply-timeout=2000 /org/freedesktop/ConsoleKit/Manager org.freedesktop.ConsoleKit.Manager.Suspend boolean:true")
+		os.system("loginctl suspend")
 		gtk.main_quit()
 
 	def hibernate_action(self,btn):
 		self.disable_buttons()
 		self.status.set_label("Hibernating, please standby...")
-		os.system("dbus-send --system --dest=org.freedesktop.ConsoleKit --type=method_call --print-reply --reply-timeout=2000 /org/freedesktop/ConsoleKit/Manager org.freedesktop.ConsoleKit.Manager.Hibernate boolean:true")
+		os.system("loginctl hibernate")
 		gtk.main_quit()
 
 	def reboot_action(self,btn):
 		self.disable_buttons()
 		self.status.set_label("Rebooting, please standby...")
-		os.system("dbus-send --system --print-reply --type=method_call --reply-timeout=2000 --dest=org.freedesktop.ConsoleKit /org/freedesktop/ConsoleKit/Manager org.freedesktop.ConsoleKit.Manager.Restart")
+		os.system("loginctl reboot")
 
 	def shutdown_action(self,btn):
 		self.disable_buttons()
 		self.status.set_label("Shutting down, please standby...")
-		os.system("dbus-send --system --print-reply --type=method_call --reply-timeout=2000 --dest=org.freedesktop.ConsoleKit /org/freedesktop/ConsoleKit/Manager org.freedesktop.ConsoleKit.Manager.Stop")
+		os.system("loginctl poweroff")
 
 	def create_window(self):
 		self.window = gtk.Window()
