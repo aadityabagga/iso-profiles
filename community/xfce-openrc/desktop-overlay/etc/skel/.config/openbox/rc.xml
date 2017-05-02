@@ -275,7 +275,7 @@
     </keybind>
     <keybind key="W-x">
       <action name="Execute">
-        <command>xfce4-terminal</command>
+        <command>exo-open --launch TerminalEmulator</command>
         <startupnotify>
           <enabled>yes</enabled>
           <name>Terminal</name>
@@ -284,7 +284,7 @@
     </keybind>
     <keybind key="W-w">
       <action name="Execute">
-        <command>firefox</command>
+        <command>exo-open --launch WebBrowser</command>
         <startupnotify>
           <enabled>yes</enabled>
           <name>Web Browser</name>
@@ -293,10 +293,10 @@
     </keybind>
     <keybind key="W-f">
       <action name="Execute">
-        <command>thunar</command>
+        <command>exo-open --launch FileManager</command>
         <startupnotify>
           <enabled>yes</enabled>
-          <name>Thunar</name>
+          <name>File Manager</name>
         </startupnotify>
       </action>
     </keybind>

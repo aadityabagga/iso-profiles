@@ -168,6 +168,8 @@ lightdm-gtk-greeter-settings
 iotop			# cmd line i/o monitor
 gnu-netcat		# nc
 light-locker		# screen locker
+bash-completion
+net-tools		# ifconfig
 
 ## Services
 cups-openrc
