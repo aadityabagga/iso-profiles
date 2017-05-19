@@ -1,20 +1,12 @@
-adwaita-maia-gtk3
-alsa-firmware
-alsa-plugins
-atool
-bc
+arc-themes-maia
 bmenu
 brandr
-breeze-maia-icon-themes
-bspwm-manjaro
-bspwm-ruler
-bspwm-scripts
-bspwm-wallpapers
+arc-maia-icon-theme
 dash
 dconf
 desktop-file-utils
 dfc
-downgrade
+dmenu-manjaro
 dunst
 dunstify
 >extra clonezilla
@@ -22,56 +14,47 @@ dunstify
 >extra gnome-disk-utility
 >extra gufw
 >extra gvfs
->extra epiphany
+>extra firefox
+>extra firefox-arch-maia-settings
 >extra lxappearance-gtk3
 >extra moc
 >extra mpv
 >extra tree
-feh
 file-roller
-gedit
+l3afpad
 hibernator
 htop
-i3lock
+light-locker
+lightdm-slick-greeter
 inxi
-lemonpanel
 libdnet
-libnotify
-limepanel
 manjaro-architect
-manjaro-bspwm-settings
+manjaro-awesome-settings
 manjaro-zsh-config
->extra mhwd-chroot
 mhwd-tui
-morc_menu
->multilib manjaro-alsa
-mygtkmenui
+pavucontrol
 ncdu
 networkmanager-dispatcher-ntpd
+network-manager-applet
 >openrc acpid-openrc
 >openrc alsa-utils-openrc
 >openrc displaymanager-openrc
 >openrc networkmanager-openrc
-pacli
+pacui
 perl-file-mimeinfo
 >extra poppler
 ps_mem
 >extra ranger
-rootmenu
-spacefm
->extra speedtest-cli
+pcmanfm-gtk3
 st-manjaro
-sxhkd
 >systemd alsa-utils
 >systemd maia-console
->systemd delayed-hibernation
 networkmanager
 >systemd openresolv
 >systemd xlogin
 terminus-font
-thermald
 tmux
-udevil
+update-notifier
 xcursor-breeze
 xdg-su
 xdg-utils
@@ -86,7 +69,6 @@ xorg-xinit
 xorg-xprop
 yaourt
 zathura-pdf-poppler
-zenity
 zsh
 zsh-completions
 >openrc accountsservice-elogind
