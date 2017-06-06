@@ -15,13 +15,14 @@ dunstify
 >extra gufw
 >extra gvfs
 >extra firefox
->extra firefox-arch-maia-settings
+>extra firefox-arc-maia-settings
 >extra lxappearance-gtk3
 >extra moc
 >extra mpv
 >extra tree
 file-roller
 l3afpad
+gnome-wallpapers
 hibernator
 htop
 light-locker
@@ -30,6 +31,7 @@ inxi
 libdnet
 manjaro-architect
 manjaro-awesome-settings
+manjaro-pulse
 manjaro-zsh-config
 mhwd-tui
 pavucontrol
