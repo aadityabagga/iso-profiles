@@ -195,6 +195,8 @@ bison
 fakeroot
 flex
 gcc
+>multilib gcc-multilib
+>multilib gcc-libs-multilib
 libtool
 m4
 make
