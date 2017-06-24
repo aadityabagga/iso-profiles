@@ -6,6 +6,7 @@ avahi
 >extra baobab
 >extra binutils
 >extra bison
+>extra ff-theme-util
 >extra firefox
 >extra dconf-editor
 deepin-calendar
@@ -18,6 +19,7 @@ deepin-gtk-theme
 >extra deepin-screen-recorder
 >extra deepin-screenshot
 >extra deepin-social-sharing
+>extra deepin-system-monitor
 deepin-terminal
 dmidecode
 >extra downgrade
@@ -33,7 +35,6 @@ dmidecode
 gedit
 >extra gimp
 gksu
->extra gnome-system-monitor
 >extra gparted
 >extra gst-libav
 >extra gst-plugins-bad
