@@ -172,6 +172,7 @@ gnu-netcat		# nc
 light-locker		# screen locker
 bash-completion
 net-tools		# ifconfig
+xorg-xdpyinfo		# Xorg info in inxi
 
 ## Services
 cups-openrc
