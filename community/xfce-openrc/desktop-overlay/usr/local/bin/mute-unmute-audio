@@ -1,0 +1,12 @@
+#!/bin/bash
+# mute-unmute-audio.sh: to mute and unmute audio on a hybrid pulse and ALSA system
+
+if pgrep pulseaudio > /dev/null; then
+	# mute unmute pulse
+	pactl set-sink-mute @DEFAULT_SINK@ toggle
+else
+	# mute unmute default device (alsa)
+	amixer -q set Master toggle
+fi
+
+exit $?
