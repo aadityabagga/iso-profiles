@@ -78,10 +78,6 @@ vi
 ## Audio Packages
 alsa-plugins
 
-## Pulseaudio
-pulseaudio
-pavucontrol
-
 ## Network and bluetooth
 networkmanager
 networkmanager-openrc
@@ -127,7 +123,7 @@ lightdm
 lightdm-gtk-greeter
 qpdfview
 xarchiver
-firefox			# web browser
+palemoon-bin		# web browser
 thunar			# file manager
 ristretto		# image viewer
 mousepad		# text editor

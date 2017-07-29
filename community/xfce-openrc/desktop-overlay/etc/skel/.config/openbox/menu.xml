@@ -122,9 +122,9 @@
 			</item>
 		</menu>
 		<menu id="Multimedia" label="Multimedia">
-			<item label="PulseAudio Volume Control">
+			<item label="Audio Mixer">
 				<action name="Execute">
-					<execute>pavucontrol</execute>
+					<execute>xfce4-terminal -e alsamixer</execute>
 				</action>
 			</item>
 			<item label="Parole Media Player">
@@ -154,11 +154,6 @@
 					<execute>/usr/bin/bvnc</execute>
 				</action>
 			</item>
-			<item label="Firefox">
-				<action name="Execute">
-					<execute>firefox</execute>
-				</action>
-			</item>
 			<item label="HexChat">
 				<action name="Execute">
 					<execute>hexchat</execute>
@@ -167,6 +162,11 @@
 			<item label="Mail Reader">
 				<action name="Execute">
 					<execute>exo-open --launch MailReader</execute>
+				</action>
+			</item>
+			<item label="Pale Moon">
+				<action name="Execute">
+					<execute>palemoon</execute>
 				</action>
 			</item>
 			<item label="Web Browser">
