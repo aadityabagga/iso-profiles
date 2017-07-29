@@ -40,8 +40,8 @@ libnotify
 limepanel
 manjaro-architect
 manjaro-bspwm-settings
+manjaro-pulse
 manjaro-zsh-config
->extra mhwd-chroot
 mhwd-tui
 morc_menu
 >multilib manjaro-alsa
@@ -53,8 +53,11 @@ networkmanager-dispatcher-ntpd
 >openrc displaymanager-openrc
 >openrc networkmanager-openrc
 pacli
+pacui
+pavucontrol
 perl-file-mimeinfo
 >extra poppler
+pulseaudio-ctl
 ps_mem
 >extra ranger
 rootmenu
@@ -70,7 +73,6 @@ networkmanager
 >systemd xlogin
 terminus-font
 thermald
-tmux
 udevil
 xcursor-breeze
 xdg-su
@@ -84,10 +86,10 @@ xf86-input-mouse
 xf86-input-void
 xorg-xinit
 xorg-xprop
+xorg-xsetroot
 yaourt
 zathura-pdf-poppler
 zenity
-zsh
 zsh-completions
 >openrc accountsservice-elogind
 >openrc upower-nosystemd

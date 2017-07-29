@@ -6,7 +6,6 @@ dmidecode
 hexchat
 gthumb
 lightdm
-lightdm
 lightdm-slick-greeter
 lightdm-settings
 budgie-desktop
@@ -109,8 +108,9 @@ ttf-indic-otf
 ttf-liberation
 arc-maia-icon-theme
 moka-icon-theme
-arc-themes-maia
-firefox-arc-maia-settings
+#arc-themes-maia
+#firefox-arc-maia-settings
+ff-theme-util
 budgie-wallpapers
 moka-icon-theme
 vino
@@ -158,7 +158,7 @@ yelp
 >extra uget
 >extra transmission-gtk
 >extra brasero
->extra manjaro-documentation
+>extra manjaro-documentation-en
 >extra jre8-openjdk
 >extra jre8-openjdk-headless
 # >extra flashplugin
