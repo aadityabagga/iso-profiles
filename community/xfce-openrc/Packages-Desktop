@@ -72,7 +72,7 @@ gptfdisk
 parted
 tcpdump
 manjaro-tools-base
-manjaro-documentation
+manjaro-documentation-en
 vi
 
 ## Audio Packages
