@@ -68,6 +68,11 @@
 					<execute>globaltime</execute>
 				</action>
 			</item>
+			<item label="Redshift">
+				<action name="Execute">
+					<execute>redshift-gtk</execute>
+				</action>
+			</item>
 			<item label="Root Terminal">
 				<action name="Execute">
 					<execute>gksudo -l xfce4-terminal</execute>

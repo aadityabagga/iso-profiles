@@ -169,6 +169,8 @@ light-locker		# screen locker
 bash-completion
 net-tools		# ifconfig
 xorg-xdpyinfo		# Xorg info in inxi
+android-udev		# better android mtp support
+redshift		# for late night viewing
 
 ## Services
 cups-openrc
